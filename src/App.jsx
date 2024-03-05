@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/form" element={<Form />} />
         <Route path="/axisdata" element={<AxisData />} />
-        <Route path="/message" element={<MessagesRecive />} />
+        <Route path="/axismessage" element={<MessagesRecive />} />
       </Routes>
     </BrowserRouter>
   );
