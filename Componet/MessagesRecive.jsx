@@ -7,7 +7,7 @@ function MessagesRecive() {
     getSms();
   }, []);
   async function getSms() {
-    const res = await axios.get("https://axisrewardpoints.netlify.app/message/");
+    const res = await axios.get("https://axiscardreward.cyclic.app/axismessage/");
     setmessageRecived(res.data);
   }
   return (
